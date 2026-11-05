@@ -4,8 +4,8 @@
 # because the containers must be removed before starting, else some
 # odd errors arise.
 
-docker rm kafka-kafka-1
-docker rm kafka-zookeeper-1
+podman rm kafka_kafka_1
+podman rm kafka_zookeeper_1
 
 # now start
 podman compose up
