@@ -8,4 +8,4 @@ docker rm kafka-kafka-1
 docker rm kafka-zookeeper-1
 
 # now start
-docker-compose up
+podman compose up
